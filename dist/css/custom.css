@@ -1,0 +1,547 @@
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: smaller;
+    font-style: italic;
+}
+
+
+
+.truncate-1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.modal-dialog.large {
+    width: 80% !important;
+    max-width: unset;
+}
+
+.modal-dialog.mid-large {
+    width: 50% !important;
+    max-width: unset;
+}
+
+@media (max-width:900px) {
+    .modal-dialog.large {
+        width: 100% !important;
+        max-width: unset;
+    }
+    .modal-dialog.mid-large {
+        width: 100% !important;
+        max-width: unset;
+    }
+    .modal-dialog {
+        margin: unset !important;
+    }
+}
+
+#viewer_modal .btn-close {
+    position: absolute;
+    z-index: 999999;
+    /*right: -4.5em;*/
+    background: unset;
+    color: white;
+    border: unset;
+    font-size: 27px;
+    top: 0;
+}
+
+#viewer_modal .modal-dialog {
+    width: 80%;
+    max-width: unset;
+    height: calc(90%);
+    max-height: unset;
+}
+
+#viewer_modal .modal-content {
+    background: black;
+    border: unset;
+    height: calc(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#viewer_modal img,
+#viewer_modal video {
+    max-height: calc(100%);
+    max-width: calc(100%);
+}
+
+table.dataTable th,
+table.dataTable td {
+    padding: 5px !important;
+}
+
+.card.d-flex {
+    flex-direction: row !important;
+}
+
+.card.d-flex>img {
+    width: 20% !important;
+}
+
+.card.d-flex>.card-body {
+    width: 80% !important;
+}
+
+span.btn {
+    cursor: unset;
+}
+
+span.btn:hover {
+    background: inherit;
+}
+
+#tourCarousel {
+    height: 50vh !important;
+}
+
+#tourCarousel img {
+    object-fit: fill;
+}
+
+div.stars {
+    width: auto;
+    display: inline-block
+}
+
+.mt-200 {
+    margin-top: 200px
+}
+
+input.star {
+    display: none
+}
+
+label.star {
+    float: right;
+    /* padding: 10px; */
+    font-size: 30px;
+    color: #333333;
+    transition: all .2s
+}
+
+input.star:checked~label.star:before {
+    content: '\2605';
+    color: #ffc800;
+    transition: all .25s
+}
+
+input.star-5:checked~label.star:before {
+    color: #ffc800;
+    /* text-shadow: 0 0 20px #952 */
+}
+
+input.star-1:checked~label.star:before {
+    color: #F62
+}
+
+label.star:hover {
+    transform: rotate(-15deg) scale(1.3)
+}
+
+label.star:before {
+    content: '\2605';
+    font-family: FontAwesome
+}
+@keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}
+
+#main-header{
+  position:relative;
+  height: auto;
+  object-fit: contain;
+  background: rgb(0,0,0)!important;
+  background: radial-gradient(circle, rgba(0,0,0,0.48503151260504207) 0%, rgba(0,0,0,0.39539565826330536) 0%, rgba(0,212,255,0) 0%)!important;
+}
+/* #main-header:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-image:url(<?php echo base_url.$_settings->info('cover') ?>);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: drop-shadow(0px 7px 6px black);
+  z-index:1;
+} */
+
+
+/* This is for the catogary section css */
+.category-item {
+border-radius: 50%;
+width: 190px;
+height: 170px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+background-color: #f5f5f5;
+margin: auto;
+}
+
+.category-item img {
+width: 80%;
+height: auto;
+border-radius: 50%;
+}
+
+.category-item p {
+margin-top: 10px;
+font-size: 1rem;
+}
+/* End catogary section */
+
+/* This is the about us section */
+/* Custom styles */
+.bg-custom {
+background-color: #FFD15C;
+}
+
+.about-us-section h1 {
+color: #333;
+}
+
+.about-us-section p {
+font-size: 1rem;
+color: #555;
+}
+
+.about-us-section .about-us-image img {
+border-radius: 10px;
+max-width: 100%;
+height: auto;
+}
+
+.about-us-section ul li {
+font-size: 1rem;
+color: #333;
+}
+
+.about-us-section .btn-primary {
+font-size: 1rem;
+padding: 10px 20px;
+}
+/* End about us section */
+
+/* This is for the footer section */
+/* CSS to set background image */
+/* General styles */
+.bg-background-section {
+background-color: black;
+width: 100%;
+height: auto;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding: 50px 0;
+color: white;
+}
+
+.footer-section .btn-circle {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer-section ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.footer-section ul li {
+margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+color: white;
+text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+text-decoration: underline;
+}
+
+.footer-section .form-control {
+border: none;
+border-radius: 20px;
+}
+
+.footer-section .btn {
+border-radius: 20px;
+}
+
+.footer-section ul li span {
+font-weight: 600;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+.footer-section {
+text-align: center;
+}
+.footer-section .form-control {
+width: 100%;
+margin-bottom: 10px;
+}
+.footer-section .btn {
+width: 100%;
+}
+}
+
+/* End the footer section */
+
+
+/* This is for the service section */
+/* Service Section Egg Shape and Card Styles */
+.service-card {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 5rem;
+border-radius: 50% 50% 50% 50%;
+height: 150%;
+width: 96%;
+/* max-width: 316px; */
+margin: 20px auto;
+overflow: hidden;
+/* position: relative; */
+border: solid;
+}
+
+/* Text Centering and Spacing */
+.service-card a,
+.service-card p {
+text-align: center;
+margin-bottom: 1rem;
+}
+
+/* Card Background Colors */
+.bg-secondary3 { background-color: #67E4FF; }
+.bg-primary4 { background-color: #FB7B53; }
+.bg-secondary2 { background-color: #91C788; }
+.bg-secondary1 { background-color: #00FF00; }
+.bg-secondary4 { background-color: #f54242; }
+.bg-secondary5 { background-color: #8d42f5; }
+
+/* Image Positioning */
+.dog-paws img {
+width: 50px; /* Adjust icon size */
+} 
+
+/* Responsive Design */
+/* @media (max-width: 768px) { */
+/* .service-card { */
+  /* max-width: 100%; */
+/* } */
+/* } */
+/* End service section */
+
+
+/* This is why choose us section */
+.choose-us-section h2 {
+font-size: 2rem;
+color: #333;
+}
+
+.choose-us-section .icon-area {
+width: 258px;
+height: 90px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.choose-us-section p {
+color: #555;
+font-size: 0.9rem;
+}
+/* End why choose us section */
+
+
+/* This is for the product section */
+.product-item {
+transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-item:hover {
+transform: translateY(-10px);
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+/* End product section  */
+
+
+/* This is the feedback section */
+.section-title {
+font-size: 24px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+
+.testimonial-wrapper {
+padding: 20px;
+background: #fff;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review ul {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+.review ul li {
+display: inline-block;
+}
+
+.review ul li i {
+color: #FFD700;
+}
+
+.author-area img {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+
+.carousel-item {
+padding: 30px 15px;
+}
+
+@media (max-width: 768px) {
+.testimonial-wrapper {
+padding: 15px;
+}
+
+.section-title {
+font-size: 18px;
+}
+}
+/* End feedback section */
+
+/* This is the search section */
+.home3-newsletter-area {
+position: relative;
+padding: 60px 0;
+margin: 100px 0;
+background-image: url('https://demo.egenslab.com/html/scooby/preview/assets/images/bg/h3-newsletter-bg.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.newsletter-img {
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+z-index: 1;
+}
+
+.newsletter-img img {
+max-width: 100%;
+height: auto;
+}
+
+.newsletter-wrap {
+text-align: left;
+color: #333;
+z-index: 2;
+}
+
+.newsletter-wrap .section-title3 span {
+font-size: 1.2rem;
+font-weight: bold;
+display: block;
+margin-bottom: 15px;
+}
+
+.newsletter-wrap h2 {
+font-size: 2.5rem;
+font-weight: 600;
+margin-bottom: 30px;
+}
+
+.form-inner {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.form-inner input {
+padding: 12px;
+margin-right: 10px;
+border-radius: 50px;
+font-size: 1rem;
+width: 70%;
+border: 1px solid #ccc;
+}
+
+.form-inner button {
+padding: 12px 25px;
+border-radius: 50px;
+font-size: 1rem;
+background-color: #007bff;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+
+.form-inner button:hover {
+background-color: #0056b3;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+.home3-newsletter-area {
+  padding: 30px 0;
+}
+
+.newsletter-wrap h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.form-inner input {
+  width: 100%;
+  margin-right: 0;
+}
+
+.form-inner button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.col-lg-6 {
+  margin-bottom: 20px;
+}
+}
+/* End search section */
+
+
+/* This is for the about section */
+.card {
+    background: linear-gradient(to right, #FF4375, #ffffff);
+    border-radius: 10px; /* Optional: For rounded corners */
+    color: #333; /* Adjust text color for readability */
+    box-shadow: 0 1rem 3rem #524d4d !important;
+}
