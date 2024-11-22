@@ -41,4 +41,9 @@
     <!-- SweetAlert2 -->
     <link rel="stylesheet" href="<?php echo base_url ?>plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
     
+
+    <!-- This is for the aos effect -->
+     <!-- AOS CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+     <!-- End aos effect -->
 </head>

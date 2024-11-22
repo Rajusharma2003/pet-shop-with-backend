@@ -2,7 +2,7 @@
 <footer class="footer-section position-relative">
     <div class="bg-background-section">
         <div class="container ">
-            <div class="row justify-content-center text-center mb-5">
+        <div class="row justify-content-center text-center mb-5" data-aos="fade-up">
                 <div class="col-md-8">
                     <h2 class="fw-bold">Subscribe to Our Newsletter</h2>
                     <p>Get the latest deals and offers right to your inbox.</p>
@@ -13,10 +13,10 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-3 mb-4">
+                <div class="col-md-3 mb-4" data-aos="fade-left">
                     <img src="<?php echo validate_image($_settings->info('logo')) ?>" class="rounded-1 img-fluid w-50 d-inline-block align-top" alt="" loading="lazy">
                     <p>PetPath offers exceptional pet care services including grooming, boarding, and more. Our dedicated team is here for you!</p>
-                    <div class="d-flex gap-2 justify-content-center ">
+                    <div class="d-flex gap-2 justify-content-center">
                         <a href="#" class="btn btn-outline-light btn-circle">
                             <i class="fab fa-facebook"></i>
                         </a>
@@ -31,7 +31,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-2 mb-4">
+                <div class="col-md-2 mb-4" data-aos="fade-up">
                     <h5 class="fw-bold">Pages</h5>
                     <ul class="list-unstyled">
                         <li><a href="#" class="text-light">Home</a></li>
@@ -41,7 +41,7 @@
                         <li><a href="#" class="text-light">Blog</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3 mb-4">
+                <div class="col-md-3 mb-4" data-aos="fade-left">
                     <h5 class="fw-bold">Contact Info</h5>
                     <ul class="list-unstyled">
                         <li><i class="fas fa-map-marker-alt me-2"></i> shop No: B 184, Handar Vihar, Block B, Palam Extension, New Delhi 110075</li>
@@ -49,7 +49,7 @@
                         <li><i class="fas fa-envelope me-2"></i> contact@example.com</li>
                     </ul>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-aos="fade-up">
                     <h5 class="fw-bold">Working Hours</h5>
                     <ul class="list-unstyled">
                         <li>Mon - Fri: <span>7am - 6pm</span></li>
@@ -158,6 +158,17 @@
 <!-- AdminLTE App -->
 <script src="<?php echo base_url ?>dist/js/adminlte.js"></script>
 
+
+<!-- This is the aos effect -->
+
+ <!-- AOS JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+ <!-- End aos -->
 <script>
   $(document).ready(function(){
     $('#p_use').click(function(){

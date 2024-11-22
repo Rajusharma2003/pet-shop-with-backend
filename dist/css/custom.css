@@ -539,7 +539,7 @@ background-color: #0056b3;
 
 
 /* This is for the about section */
-.card {
+.cardabout {
     background: linear-gradient(to right, #FF4375, #ffffff);
     border-radius: 10px; /* Optional: For rounded corners */
     color: #333; /* Adjust text color for readability */
