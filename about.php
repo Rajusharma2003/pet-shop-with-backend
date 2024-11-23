@@ -25,22 +25,22 @@
 <!-- This is the about us section  -->
 <section class="about-us-section mt-5 mb-5 py-5 bg-secondary">
   <div class="container position-relative">
-    <div class="row align-items-center">
+  <div class="row align-items-center">
       <!-- Left Column - Image -->
-      <div class="col-lg-5 order-last order-lg-first">
+      <div class="col-lg-5 order-last order-lg-first" data-aos="fade-up" data-aos-duration="1000">
         <div class="about-us-image position-relative">
-          <img class="img-fluid" src="https://softivuslab.com/html/petpath/main/assets/images/about-section-banner.png" alt="About Us Banner">
+          <img class="img-fluid" src="./dist/img/aboutimg.png" alt="About Us Banner">
         </div>
       </div>
 
       <!-- Right Column - Content -->
-      <div class="col-xl-6 col-lg-7">
+      <div class="col-xl-6 col-lg-7" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
         <span class="d-block text-uppercase font-weight-bold mb-3">About Us</span>
         <h1 class="display-5 font-weight-normal mb-4">
-        Welcome to The PetYard: Your Pet's Happy Place
+          Welcome to The PetYard: Your Pet's Happy Place
         </h1>
         <p class="text-dark mb-4">
-        At The PetYard, we understand that pets are more than just animals—they're family. That’s why we’re dedicated to offering premium services like grooming, daycare, and boarding in a loving and secure environment. Let us be your trusted partner in keeping your furry friends happy and healthy!
+          At The PetYard, we understand that pets are more than just animals—they're family. That’s why we’re dedicated to offering premium services like grooming, daycare, and boarding in a loving and secure environment. Let us be your trusted partner in keeping your furry friends happy and healthy!
         </p>
         <ul class="d-flex flex-wrap list-unstyled">
           <li class="col-md-6 mb-2">
@@ -62,7 +62,7 @@
             <i class="text-primary pr-2 fas fa-check-circle"></i> Trusted by Pet Owners
           </li>
         </ul>
-        <a href="#" class="btn btn-primary mt-4">More About Us</a>
+        <a href="#" class="btn btn-primary mt-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">More About Us</a>
       </div>
     </div>
   </div>
@@ -71,26 +71,25 @@
 
 <!-- This is the details section -->
 <div class="container-fluid text-center mt-5 bg-light pb-5 ">
-  <p class="pt-5 text-bold">We're here for you</p>
-  <h1 class="mb-5 text-primary">All you need, all in one place.</h1>
+  <p class="pt-5 text-bold" data-aos="fade-down">We're here for you</p>
+  <h1 class="mb-5 text-dark" data-aos="fade-up">All you need, all in one place.</h1>
 
   <div class="row g-4 pb-5">
-    <div class="col-12 col-md-4">
-    <div class="card border-0 shadow h-100 p-4 text-center">
-  <img src="https://cdn-icons-png.flaticon.com/128/10047/10047637.png" alt="Icon" class="img-fluid mx-auto mb-3" style="width: 80px; height: 80px;">
-  <h2 class="h5 mb-3">Caring for Pets Like Family</h2>
-  <p class="text-muted">At our pet shop, we prioritize the well-being and happiness of your furry friends.</p>
-</div>
-
+    <div class="col-12 col-md-4" data-aos="fade-up">
+      <div class="card border-0 shadow h-100 p-4 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/128/10047/10047637.png" alt="Icon" class="img-fluid mx-auto mb-3" style="width: 80px; height: 80px;">
+        <h2 class="h5 mb-3">Caring for Pets Like Family</h2>
+        <p class="text-muted">At our pet shop, we prioritize the well-being and happiness of your furry friends.</p>
+      </div>
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-4" data-aos="zoom-in">
       <div class="card border-0 shadow h-100 p-4 text-center">
         <img src="https://cdn-icons-png.flaticon.com/128/3737/3737711.png" alt="Icon" class="img-fluid mx-auto mb-3" style="width: 80px; height: 80px;">
         <h2 class="h5 mb-3">Where Quality Meets Compassion</h2>
         <p class="text-muted">We provide the finest products and services to ensure your pets stay healthy, joyful every step of the way</p>
       </div>
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-4" data-aos="fade-up">
       <div class="card border-0 shadow h-100 p-4 text-center">
         <img src="https://cdn-icons-png.flaticon.com/128/17277/17277327.png" alt="Icon" class="img-fluid mx-auto mb-3" style="width: 80px; height: 80px;">
         <h2 class="h5 mb-3">Your Trusted Partner in Pet Care</h2>
@@ -102,18 +101,17 @@
  <!-- End details section -->
 
 
-
  <!-- Why Choose Us Section Start -->
-<section class="choose-us-section py-5 bg-light">
+ <section class="choose-us-section py-5 bg-light">
     <div class="container">
         <!-- Section Title -->
-        <div class="row justify-content-center mb-4">
+        <div class="row justify-content-center mb-4" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-8 text-center">
                 <span class="text-primary text-uppercase mb-2 d-block">WHY CHOOSE US</span>
-                <h2 class="fw-normal">
-          <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/icon/h3-sec-tt-vect-left.svg" alt="">
+                <h2 class="section-title fs-1 mt-5">
+                    <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/icon/h3-sec-tt-vect-left.svg" alt="">
                     Your Pets Will Be Extremely Happy With Us
-          <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/icon/h3-sec-tt-vect-right.svg" alt="">
+                    <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/icon/h3-sec-tt-vect-right.svg" alt="">
                 </h2>
             </div>
         </div>
@@ -121,7 +119,7 @@
         <!-- Section Content -->
         <div class="row gy-4 align-items-center">
             <!-- Left Items -->
-            <div class="col-md-3">
+            <div class="col-md-3" data-aos="fade-right" data-aos-delay="200">
                 <div class="d-flex flex-column gap-4">
                     <div class="d-flex align-items-center gap-3">
                         <div class="icon-area bg-light rounded-circle p-3">
@@ -145,12 +143,12 @@
             </div>
 
             <!-- Center Image -->
-            <div class="col-md-6 text-center">
-                <img src="https://softivuslab.com/html/petpath/main/assets/images/why-choose-us-banner.png" class="img-fluid rounded-pill" alt="Why Choose Us Banner">
+            <div class="col-md-6 text-center" data-aos="zoom-in" data-aos-delay="300">
+                <img src="./dist/img/chooseimg.png" class="img-fluid rounded-pill" alt="Why Choose Us Banner">
             </div>
 
             <!-- Right Items -->
-            <div class="col-md-3">
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
                 <div class="d-flex flex-column gap-4">
                     <div class="d-flex align-items-center gap-3">
                         <div class="icon-area bg-light rounded-circle p-3">
@@ -292,28 +290,29 @@
     <div class="container">
         <div class="row align-items-center">
             <!-- Left side content (form) -->
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="newsletter-wrap">
                     <div class="section-title3 mb-40">
                         <span>Get In Touch</span>
                         <h2>Let’s Connect Our Newsletter</h2>
                     </div>
+                    <!-- This is the form section -->
                     <form>
                         <div class="form-inner">
                             <input type="email" class="form-control" placeholder="Type Your Email" required>
                             <button type="submit" class="btn btn-primary">Connect</button>
                         </div>
                     </form>
+                    <!-- End form section -->
                 </div>
             </div>
             <!-- Right side image -->
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="zoom-in">
                 <div class="newsletter-img">
-                    <img class="img-fluid" src="https://demo.egenslab.com/html/scooby/preview/assets/images/bg/h3-newsletter-img.png" alt="Newsletter Image">
+                    <img class="img-fluid" src="./dist/img/contactimg.png" alt="Newsletter Image">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- ========== Home3 Newsletter End============= -->
-

@@ -13,24 +13,23 @@
       <img src='./dist/img/11.png' alt="Image 1" class="img-fluid">
     </div>
     <div class="col-12 col-md-4" data-aos="fade-down" data-aos-duration="1000">
-      <img src="./dist/img/2.png" alt="Image 2" class="img-fluid">
+      <img src="./dist/img/dd.png" alt="Image 2" class="img-fluid">
     </div>
     <div class="col-12 col-md-4" data-aos="fade-up" data-aos-duration="1000">
-      <img src="./dist/img/3.png" alt="Image 3" class="img-fluid">
+      <img src="./dist/img/pp.png" alt="Image 3" class="img-fluid">
     </div>
   </div>
 </div>
-
  <!-- End banner section -->
  
  <!-- This is the another banner section -->
  <div class="container mt-5">
     <div class="row g-4">
       <div class="col-12 col-md-6" data-aos="fade-right" data-aos-duration="1000">
-        <img src="./dist/img/4.png" alt="Image 1" class="img-fluid">
+        <img src="./dist/img/tb1.png" alt="Image 1" class="img-fluid">
       </div>
       <div class="col-12 col-md-6" data-aos="fade-down" data-aos-duration="1000">
-        <img src="./dist/img/5.png" alt="Image 2" class="img-fluid">
+        <img src="./dist/img/tb2.png" alt="Image 2" class="img-fluid">
       </div>
     </div>
   </div>
@@ -41,34 +40,35 @@
 
   <div class="col-lg-12 text-center" data-aos="fade-down" data-aos-duration="1000">
     <h1 class="section-title fs-1 mb-5">
-      <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/icon/h3-sec-tt-vect-left.svg" alt="">
+      <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/icon/h3-sec-tt-vect-left.svg" alt="footimg">
       Our Category 
-      <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/icon/h3-sec-tt-vect-right.svg" alt="">
+      <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/icon/h3-sec-tt-vect-right.svg" alt="footimg">
     </h1>
   </div>
 
   <div class="row d-flex justify-content-center">
     <div class="col-lg-3 col-md-6 col-12" data-aos="zoom-in" data-aos-duration="1000">
       <div class="category-item">
-        <img src="https://img.freepik.com/free-photo/cute-spitz_144627-7076.jpg?uid=R163215126&ga=GA1.1.332943406.1726205077&semt=ais_hybrid" alt="Category 1">
+        <img src="./dist/img/4c.png" alt="Category 1">
       </div>
       <p>Dog</p>
     </div>
+
     <div class="col-lg-3 col-md-6 col-12" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
       <div class="category-item">
-        <img src="https://img.freepik.com/free-photo/closeup-shot-beautiful-ginger-domestic-kitten-sitting-white-surface_181624-35913.jpg?uid=R163215126&ga=GA1.1.332943406.1726205077&semt=ais_hybrid" alt="Category 2">
+        <img src="./dist/img/3c.png" alt="Category 2">
       </div>
       <p>Cat</p>
     </div>  
     <div class="col-lg-3 col-md-6 col-12" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
       <div class="category-item">
-        <img src="https://img.freepik.com/free-photo/selective-focus-shot-hummingbird-flight_181624-56855.jpg?uid=R163215126&ga=GA1.1.332943406.1726205077&semt=ais_hybrid" alt="Category 4">
+        <img src="./dist/img/2c.png" alt="Category 4">
       </div>
       <p>Birds</p>
     </div>
     <div class="col-lg-3 col-md-6 col-12" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
       <div class="category-item">
-        <img src="https://img.freepik.com/premium-photo/pet-accessories-white-background_185193-39663.jpg?uid=R163215126&ga=GA1.1.332943406.1726205077&semt=ais_hybrid" alt="Category 3">
+        <img src="./dist/img/1c.png" alt="Category 3">
       </div>
       <p>Accessories</p>
     </div>
@@ -89,7 +89,7 @@
       <!-- Left Column - Image -->
       <div class="col-lg-5 order-last order-lg-first" data-aos="fade-up" data-aos-duration="1000">
         <div class="about-us-image position-relative">
-          <img class="img-fluid" src="https://softivuslab.com/html/petpath/main/assets/images/about-section-banner.png" alt="About Us Banner">
+          <img class="img-fluid" src="./dist/img/aboutimg.png" alt="About Us Banner">
         </div>
       </div>
 
@@ -97,28 +97,28 @@
       <div class="col-xl-6 col-lg-7" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
         <span class="d-block text-uppercase font-weight-bold mb-3">About Us</span>
         <h1 class="display-5 font-weight-normal mb-4">
-          Welcome to The PetYard: Your Pet's Happy Place
+          Welcome to The PetYard Your Pet's Happy Place
         </h1>
         <p class="text-dark mb-4">
           At The PetYard, we understand that pets are more than just animals—they're family. That’s why we’re dedicated to offering premium services like grooming, daycare, and boarding in a loving and secure environment. Let us be your trusted partner in keeping your furry friends happy and healthy!
         </p>
         <ul class="d-flex flex-wrap list-unstyled">
-          <li class="col-md-6 mb-2">
+          <li class="col-md-12 mb-2">
             <i class="text-primary pr-2 fas fa-check-circle"></i> Over 10 years of experience
           </li>
-          <li class="col-md-6 mb-2">
+          <li class="col-md-12 mb-2">
             <i class="text-primary pr-2 fas fa-check-circle"></i> Over a Decade of Expertise
           </li>
-          <li class="col-md-6 mb-2">
+          <li class="col-md-12 mb-2">
             <i class="text-primary pr-2 fas fa-check-circle"></i> High-Quality Pet Food
           </li>
-          <li class="col-md-6 mb-2">
+          <li class="col-md-12 mb-2">
             <i class="text-primary pr-2 fas fa-check-circle"></i> A Wide Range of Pet Accessories
           </li>
-          <li class="col-md-6 mb-2">
+          <li class="col-md-12 mb-2">
             <i class="text-primary pr-2 fas fa-check-circle"></i> Focus on Pet Well-being
           </li>
-          <li class="col-md-6 mb-2">
+          <li class="col-md-12 mb-2">
             <i class="text-primary pr-2 fas fa-check-circle"></i> Trusted by Pet Owners
           </li>
         </ul>
@@ -249,7 +249,6 @@
         </div>
     </div>
 </section>
-
 <!-- End product section -->
 
 
@@ -293,10 +292,10 @@
                     </div>
                 </div>
             </div>
-
+          
             <!-- Center Image -->
             <div class="col-md-6 text-center" data-aos="zoom-in" data-aos-delay="300">
-                <img src="https://softivuslab.com/html/petpath/main/assets/images/why-choose-us-banner.png" class="img-fluid rounded-pill" alt="Why Choose Us Banner">
+                <img src="./dist/img/chooseimg.png" class="img-fluid rounded-pill" alt="Why Choose Us Banner">
             </div>
 
             <!-- Right Items -->
@@ -330,112 +329,108 @@
 
   <!-- Testimonial Section Start -->
   <div class="container-fluid mt-5 bg-light">
-  <div class="row mb-4" data-aos="fade-down">
-    <div class="col-lg-12 text-center">
-      <h1 class="section-title fs-1 mt-5">
-        <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/icon/h3-sec-tt-vect-left.svg" alt="">
-        Customers Think About Us
-        <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/icon/h3-sec-tt-vect-right.svg" alt="">
-      </h1>
+    <div class="row mb-4 ">
+      <div class="col-lg-12 text-center">
+        <h1 class="section-title fs-1 mt-5">
+          <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/icon/h3-sec-tt-vect-left.svg" alt="">
+          Customers Think About Us
+          <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/icon/h3-sec-tt-vect-right.svg" alt="">
+        </h1>
+      </div>
     </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-lg-10">
-      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <!-- Slide 1 -->
-          <div class="carousel-item active" data-aos="fade-up">
-            <div class="testimonial-wrapper text-center">
-              <div class="review mb-3">
-                <ul class="list-inline">
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                </ul>
-              </div>
-              <p class="mb-4">
-                <span class="text-bold">"Excellent Service and Caring Staff"</span><br>
-                "I have been visiting this pet shop for a while now, and every visit is a pleasant experience. The staff is incredibly knowledgeable and genuinely cares about the well-being of the animals. They always help me choose the best products for my pets and give great advice on care and nutrition. I love the wide variety of high-quality pet supplies they offer. Highly recommend this shop to all pet lovers!"
-              </p>
-              <div class="author-area d-flex align-items-center justify-content-center">
-                <div class="author-img me-3" data-aos="zoom-in">
-                  <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/bg/h3-autho-1.png" alt="" class="rounded-circle" width="60">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="testimonial-wrapper text-center">
+                <div class="review mb-3">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                  </ul>
                 </div>
-                <div>
-                  <h5 class="mb-1">kunal</h5>
-                  <span>Customer</span>
+                <p class="mb-4"><span class="text-bold">"Excellent Service and Caring Staff"</span><br>
+                "I have been visiting this pet shop for a while now, and every visit is a pleasant experience. The staff is incredibly knowledgeable and genuinely cares about the well-being of the animals. They always help me choose the best products for my pets and give great advice on care and nutrition. I love the wide variety of high-quality pet supplies they offer. Highly recommend this shop to all pet lovers!"</p>
+                <div class="author-area d-flex align-items-center justify-content-center">
+                  <div class="author-img me-3">
+                    <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/bg/h3-autho-1.png" alt="" class="rounded-circle" width="60">
+                  </div>
+                  <div>
+                    <h5 class="mb-1">kunal</h5>
+                    <span>Customer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="testimonial-wrapper text-center">
+                <div class="review mb-3">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                  </ul>
+                </div>
+                <p class="mb-4"><span class="text-bold">"Healthy and Happy Pets"</span><br>
+                "This is the only place I trust when it comes to getting supplies for my furry friend. The pets they have for adoption are healthy and well cared for, and the shop maintains excellent hygiene. I recently adopted a kitten here, and I could tell how much effort they put into ensuring the animals are in top condition. I appreciate their dedication and will definitely return for all my pet's needs."</p>
+                <div class="author-area d-flex align-items-center justify-content-center">
+                  <div class="author-img me-3">
+                    <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/bg/h3-autho-3.png" alt="" class="rounded-circle" width="60">
+                  </div>
+                  <div>
+                    <h5 class="mb-1">komal</h5>
+                    <span>Customer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <div class="testimonial-wrapper text-center">
+                <div class="review mb-3">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                    <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                    <li i class="list-inline-item"><i class="bi bi-star-fill"></i></li>
+                  </ul>
+                </div>
+                <p class="mb-4"><span class="text-bold">"One-Stop Shop for Pet Owners"</span><br>
+                "This pet shop has everything I need under one roof. From premium food options to fun toys and grooming supplies, they truly cater to every pet's needs. What I love most is their friendly environment and the way they treat both customers and their pets. They even helped me set up a perfect aquarium for my new fish. I couldn't be happier with their service!"</p>
+                <div class="author-area d-flex align-items-center justify-content-center">
+                  <div class="author-img me-3">
+                    <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/bg/h3-autho-2.png" alt="" class="rounded-circle" width="60">
+                  </div>
+                  <div>
+                    <h5 class="mb-1">Abhishak</h5>
+                    <span>Customer</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Slide 2 -->
-          <div class="carousel-item" data-aos="fade-up" data-aos-delay="200">
-            <div class="testimonial-wrapper text-center">
-              <div class="review mb-3">
-                <ul class="list-inline">
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                </ul>
-              </div>
-              <p class="mb-4">
-                <span class="text-bold">"Healthy and Happy Pets"</span><br>
-                "This is the only place I trust when it comes to getting supplies for my furry friend. The pets they have for adoption are healthy and well cared for, and the shop maintains excellent hygiene. I recently adopted a kitten here, and I could tell how much effort they put into ensuring the animals are in top condition. I appreciate their dedication and will definitely return for all my pet's needs."
-              </p>
-              <div class="author-area d-flex align-items-center justify-content-center">
-                <div class="author-img me-3" data-aos="zoom-in">
-                  <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/bg/h3-autho-3.png" alt="" class="rounded-circle" width="60">
-                </div>
-                <div>
-                  <h5 class="mb-1">komal</h5>
-                  <span>Customer</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Slide 3 -->
-          <div class="carousel-item" data-aos="fade-up" data-aos-delay="400">
-            <div class="testimonial-wrapper text-center">
-              <div class="review mb-3">
-                <ul class="list-inline">
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                  <li class="list-inline-item"><i class="bi bi-star-fill"></i></li>
-                </ul>
-              </div>
-              <p class="mb-4">
-                <span class="text-bold">"One-Stop Shop for Pet Owners"</span><br>
-                "This pet shop has everything I need under one roof. From premium food options to fun toys and grooming supplies, they truly cater to every pet's needs. What I love most is their friendly environment and the way they treat both customers and their pets. They even helped me set up a perfect aquarium for my new fish. I couldn't be happier with their service!"
-              </p>
-              <div class="author-area d-flex align-items-center justify-content-center">
-                <div class="author-img me-3" data-aos="zoom-in">
-                  <img src="https://demo.egenslab.com/html/scooby/preview/assets/images/bg/h3-autho-2.png" alt="" class="rounded-circle" width="60">
-                </div>
-                <div>
-                  <h5 class="mb-1">Abhishak</h5>
-                  <span>Customer</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <!-- Carousel Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <i class="fa fa-chevron-left text-dark" aria-hidden="true"></i>
+            <!-- <span class="">Previous</span> -->
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <i class="fa fa-chevron-right text-dark" aria-hidden="true"></i>
+            <!-- <span class="text-dark">Next</span> -->
+            </button>
         </div>
-        <!-- Carousel Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev" data-aos="fade-left">
-          <i class="fa fa-chevron-left text-dark" aria-hidden="true"></i>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" data-aos="fade-right">
-          <i class="fa fa-chevron-right text-dark" aria-hidden="true"></i>
-        </button>
       </div>
     </div>
   </div>
-</div>
   <!-- Testimonial Section End -->
 
 
@@ -461,13 +456,12 @@
             <!-- Right side image -->
             <div class="col-lg-6" data-aos="zoom-in">
                 <div class="newsletter-img">
-                    <img class="img-fluid" src="https://demo.egenslab.com/html/scooby/preview/assets/images/bg/h3-newsletter-img.png" alt="Newsletter Image">
+                    <img class="img-fluid" src="./dist/img/contactimg.png" alt="Newsletter Image">
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 <!-- ========== Home3 Newsletter End============= -->
 
 

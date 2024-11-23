@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-3 mb-4" data-aos="fade-left">
+                <div class="col-md-3 mb-4" data-aos="fade-up">
                     <img src="<?php echo validate_image($_settings->info('logo')) ?>" class="rounded-1 img-fluid w-50 d-inline-block align-top" alt="" loading="lazy">
                     <p>PetPath offers exceptional pet care services including grooming, boarding, and more. Our dedicated team is here for you!</p>
                     <div class="d-flex gap-2 justify-content-center">
@@ -41,7 +41,7 @@
                         <li><a href="#" class="text-light">Blog</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3 mb-4" data-aos="fade-left">
+                <div class="col-md-3 mb-4" data-aos="fade-down">
                     <h5 class="fw-bold">Contact Info</h5>
                     <ul class="list-unstyled">
                         <li><i class="fas fa-map-marker-alt me-2"></i> shop No: B 184, Handar Vihar, Block B, Palam Extension, New Delhi 110075</li>
@@ -158,17 +158,15 @@
 <!-- AdminLTE App -->
 <script src="<?php echo base_url ?>dist/js/adminlte.js"></script>
 
-
 <!-- This is the aos effect -->
-
  <!-- AOS JavaScript -->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
 <script>
   AOS.init();
 </script>
-
  <!-- End aos -->
+
 <script>
   $(document).ready(function(){
     $('#p_use').click(function(){
@@ -238,7 +236,6 @@
 
 <!-- this is for the style css -->
  <style>
-  
    .body{
   margin: 0;
   padding: 0;
