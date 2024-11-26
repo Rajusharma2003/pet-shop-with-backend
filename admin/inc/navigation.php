@@ -47,14 +47,14 @@
                         </p>
                       </a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                       <a href="<?php echo base_url ?>admin/?page=orders" class="nav-link nav-orders">
                         <i class="nav-icon fas fa-list"></i>
                         <p>
                           Order List
                         </p>
                       </a>
-                    </li>
+                    </li> -->
                     <li class="nav-header">Maintenance</li>
                     <li class="nav-item dropdown">
                       <a href="<?php echo base_url ?>admin/?page=maintenance/category" class="nav-link nav-maintenance/category">

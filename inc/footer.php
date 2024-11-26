@@ -45,7 +45,7 @@
                     <h5 class="fw-bold">Contact Info</h5>
                     <ul class="list-unstyled">
                         <li><i class="fas fa-map-marker-alt me-2"></i> shop No: B 184, Handar Vihar, Block B, Palam Extension, New Delhi 110075</li>
-                        <li><i class="fas fa-phone-alt me-2"></i> 9974519999999</li>
+                        <li><i class="fas fa-phone-alt me-2"></i>09873470294</li>
                         <li><i class="fas fa-envelope me-2"></i> contact@example.com</li>
                     </ul>
                 </div>
@@ -63,6 +63,15 @@
             </div>
         </div>
     </div>
+
+
+    <!-- This is the calling and whatsapp section -->
+    <div class="position-relative">
+        <a class="call" href="tel:+917947117361"><i class="bi bi-telephone"></i></a>
+        <a class="whatsapp"
+            href="https://api.whatsapp.com/send?phone=917947117361&text=&app_absent=0"><i class="bi bi-whatsapp"></i></a>
+    </div>
+     <!-- End -->
 </footer>
 
 <!-- Date Range Picker (hidden) -->
@@ -162,6 +171,10 @@
  <!-- AOS JavaScript -->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
+ <!-- This is for the carousel -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
 <script>
   AOS.init();
 </script>
@@ -243,5 +256,4 @@
   overflow: hidden;
    }
  </style>
-
  <!-- End here -->

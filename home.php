@@ -230,7 +230,7 @@
                     <img class="card-img-top img-fluid" src="<?php echo validate_image($img) ?>" alt="Product Image" />
                     
                     <!-- Product details -->
-                    <div class="card-body text-start">
+                    <div class="card-body text-start" data-aos="fade-right" data-aos-delay="200">
                         <!-- Product name -->
                         <h6 class="fw-bold">Product : <?php echo $row['product_name'] ?></h6>
                         <!-- Product price -->
@@ -240,7 +240,7 @@
                     </div>
 
                     <!-- Product actions -->
-                    <div class="card-footer text-center bg-transparent border-top-0">
+                    <div class="card-footer text-center bg-transparent border-top-0" >
                         <a class="btn btn-secondary w-100" href=".?p=view_product&id=<?php echo md5($row['id']) ?>">View Product</a>
                     </div>
                 </div>

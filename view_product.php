@@ -19,22 +19,33 @@
     }
  }
 ?>
-<section class="py-5">
+<section class="py-5 h-100 ">
     <div class="container px-4 px-lg-5 my-5">
         <div class="row gx-4 gx-lg-5 align-items-center">
+            <!-- This is for the carousel -->
             <div class="col-md-6">
-                <img class="card-img-top mb-5 mb-md-0 " loading="lazy" id="display-img" src="<?php echo validate_image($img) ?>" alt="..." />
-                <div class="mt-2 row gx-2 gx-lg-3 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-start">
-                    <?php 
-                        foreach($fileO as $k => $img):
-                            if(in_array($img,array('.','..')))
-                                continue;
-                    ?>
-                        <a href="javascript:void(0)" class="view-image <?php echo $k == 2 ? "active":'' ?>"><img src="<?php echo validate_image('uploads/product_'.$id.'/'.$img) ?>" loading="lazy"  class="img-thumbnail" alt=""></a>
+                <div class="main-carousel">
+                    <?php foreach ($fileO as $k => $img):
+                        if (in_array($img, array('.', '..'))) continue; ?>
+                        <div>
+                            <img class="card-img-top" src="<?php echo validate_image('uploads/product_' . $id . '/' . $img) ?>" alt="Image <?php echo $k; ?>" />
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+
+                <div class="thumbnail-carousel mt-2">
+                    <?php foreach ($fileO as $k => $img):
+                        if (in_array($img, array('.', '..'))) continue; ?>
+                        <div>
+                            <img class="view-image img-thumbnail <?php echo $k == 2 ? 'active' : ''; ?>" 
+                                src="<?php echo validate_image('uploads/product_' . $id . '/' . $img) ?>" 
+                                alt="Thumbnail <?php echo $k; ?>" />
+                        </div>
                     <?php endforeach; ?>
                 </div>
             </div>
-            <div class="col-md-6">
+
+            <div class="col-md-6 overflow-scroll-y">
                 <!-- <div class="small mb-1">SKU: BST-498</div> -->
                 <h1 class="display-5 fw-bolder"><?php echo $product_name ?></h1>
                 <div class="fs-5 mb-5">
@@ -52,10 +63,11 @@
                     <input type="hidden" name="price" value="<?php echo $inv[0]['price'] ?>">
                     <input type="hidden" name="inventory_id" value="<?php echo $inv[0]['id'] ?>">
                     <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" name="quantity" />
-                    <button class="btn btn-outline-dark flex-shrink-0" type="submit">
+                    <a href="https://api.whatsapp.com/send?phone=917947117361&text=&app_absent=0" class="btn btn-outline-dark flex-shrink-0" target="_blank" rel="noopener noreferrer">
                         <i class="bi-cart-fill me-1"></i>
-                        Add to cart
-                    </button>
+                        Buy Now
+                    </a>
+
                 </div>
                 </form>
                 <p class="lead"><?php echo stripslashes(html_entity_decode($description)) ?></p>
@@ -67,7 +79,7 @@
 <section class="py-5 bg-light">
     <div class="container px-4 px-lg-5 mt-5">
         <h2 class="fw-bolder mb-4">Related products</h2>
-        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-3 row-cols-xl-4 justify-content-center">
         <?php 
             $products = $conn->query("SELECT * FROM `products` where status = 1 and (category_id = '{$category_id}' or sub_category_id = '{$sub_category_id}') and id !='{$id}' order by rand() limit 4 ");
             while($row = $products->fetch_assoc()):
@@ -105,7 +117,6 @@
                         <div class="text-center">
                             <a class="btn btn-flat btn-secondary w-100" href=".?p=view_product&id=<?php echo md5($row['id']) ?>">View Product</a>
                         </div>
-                        
                     </div>
                 </div>
             </div>

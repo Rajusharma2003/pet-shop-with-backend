@@ -41,6 +41,9 @@
     <!-- SweetAlert2 -->
     <link rel="stylesheet" href="<?php echo base_url ?>plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
     
+    <!-- This is for the carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
 
     <!-- This is for the aos effect -->
      <!-- AOS CSS -->

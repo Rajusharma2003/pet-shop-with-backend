@@ -71,12 +71,12 @@ elseif(isset($_GET['s'])){
                         $inv[$ir['size']] = number_format($ir['price']);
                     }
             ?>
-            <div class="row mb-5 px-3">
+            <div class="row mb-5 px-3" data-aos="fade-up" data-aos-duration="1000">
                 <div class="card col-md-12 p-0 product-item">
                     <!-- Product image-->
                     <img class="card-img-top img-fluid" src="<?php echo validate_image($img) ?>" loading="lazy" alt="..." />
                     <!-- Product details-->
-                    <div class="card-body text-start">
+                    <div class="card-body text-start" data-aos="fade-right" data-aos-delay="200">
                         <!-- <div class="text-center"> -->
                             <!-- Product name-->
                             <h6 class="fw-bold">Product :<?php echo $row['product_name'] ?></h6>
@@ -87,13 +87,9 @@ elseif(isset($_GET['s'])){
                         <!-- </div> -->
                     </div>
                     <!-- Product actions-->
-                    <div class="card-footer text-center bg-transparent border-top-0">
+                    <div class="card-footer text-center bg-transparent border-top-0" >
                         <div class="text-center">
                             <a class="btn btn-secondary w-100"href=".?p=view_product&id=<?php echo md5($row['id']) ?>">View Product</a>
-                        </div>
-
-                        <div class="">
-                            <a href=".?p=view_product&id=<?php echo md5(string : $row['id'])?>">View Product</a>
                         </div>
                     </div>
                 </div>

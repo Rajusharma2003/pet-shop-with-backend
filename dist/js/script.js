@@ -141,3 +141,34 @@ $(document).ready(function(){
 		})
 	})
 })
+
+
+// this is for the carousel.
+$(document).ready(function () {
+    // Initialize the main carousel
+    $('.main-carousel').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        fade: true,
+        asNavFor: '.thumbnail-carousel' // Link with thumbnail carousel
+    });
+
+    // Initialize the thumbnail carousel
+    $('.thumbnail-carousel').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        asNavFor: '.main-carousel', // Link with main carousel
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true
+    });
+
+    // Highlight active thumbnail
+    $('.thumbnail-carousel').on('click', '.view-image', function () {
+        $('.view-image').removeClass('active'); // Remove active from all
+        $(this).addClass('active'); // Add active to clicked item
+    });
+});
+
+
